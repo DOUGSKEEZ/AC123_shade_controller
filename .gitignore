@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Arduino
+.vscode/
+.arduino/
+build/
+
+# Backups
+*.bak
