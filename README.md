@@ -67,7 +67,7 @@ User Command → Python Interface → Database Lookup → Arduino Command Format
     - For the best experience and full functionality, it is recommended to use a native Linux installation or a Linux VM with USB passthrough capabilities for working with RTL-SDR devices and `rtl_433`.  I've heard good things about WSL 2 on Windows 11, though I've had my own bad experiences on Windows 10 with WSL 2.
   - Signal analysis tool (like Universal Radio Hacker or PulseView) - though I just used the native https://triq.org/pdv/ links native within `rtl_433`.
   - [Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) 
-     - NOTE: I do NOT leverage the [rc-switch](https://docs.arduino.cc/libraries/rc-switch/) library.  I could never get it working with this remote protocal.  All RF bits are sent directly to the TX_PIN and timings defined in C++.
+     - NOTE: I do NOT leverage the [rc-switch](https://docs.arduino.cc/libraries/rc-switch/) library.  I could never get it working with this remote protocol.  All RF bits are sent directly to the TX_PIN and timings defined in C++.
   - [SDR#](https://airspy.com/download/) - Only because I think it's cool to SEE and hear the amplified transmissions from the remote =)
 
 ## Installation
